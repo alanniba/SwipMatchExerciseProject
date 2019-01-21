@@ -167,23 +167,6 @@ class CardView: UIView {
     fileprivate func handleTheEnd(_ gesture : UIPanGestureRecognizer) {
         let translationDirection : CGFloat = gesture.translation(in: nil).x > 0 ? 1 : -1
         let shouldDismiss = gesture.translation(in: nil).x > threshold || gesture.translation(in: nil).x < -threshold
-//        UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 0.1, options: .curveEaseOut, animations: {
-//            if shouldDismiss{
-//                if gesture.translation(in: nil).x > 0{
-//                    self.frame = CGRect(x: 600, y: 0, width: self.frame.width, height: self.frame.height)
-//                }else{
-//                    self.frame = CGRect(x: -1000, y: 0, width: self.frame.width, height: self.frame.height)
-//                }
-//            } else {
-//                self.transform = .identity
-//            }
-//        }){ (_) in
-//            self.transform = .identity
-//            if shouldDismiss{
-//                self.removeFromSuperview()
-//                self.delegate?.didRemoveCardView(cardView: self)
-//            }
-//        }
         
         //hack solution
         
