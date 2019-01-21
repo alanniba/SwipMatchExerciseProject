@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083034C721C1733F0030A5FA /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083034C621C1733F0030A5FA /* SettingTableViewController.swift */; };
+		083034C921C1821C0030A5FA /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083034C821C1821C0030A5FA /* SettingTableViewCell.swift */; };
+		08731A1C21B6D611002A2245 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08731A1B21B6D611002A2245 /* User.swift */; };
+		08731A2021B6EB6A002A2245 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08731A1F21B6EB6A002A2245 /* CardViewModel.swift */; };
+		08731A2421B6F4C9002A2245 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08731A2321B6F4C9002A2245 /* Advertiser.swift */; };
 		08757A3521B0DFD300816599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A3421B0DFD300816599 /* AppDelegate.swift */; };
-		08757A3721B0DFD300816599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A3621B0DFD300816599 /* ViewController.swift */; };
+		08757A3721B0DFD300816599 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A3621B0DFD300816599 /* HomeController.swift */; };
 		08757A3A21B0DFD300816599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08757A3821B0DFD300816599 /* Main.storyboard */; };
 		08757A3C21B0DFD400816599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08757A3B21B0DFD400816599 /* Assets.xcassets */; };
 		08757A3F21B0DFD400816599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08757A3D21B0DFD400816599 /* LaunchScreen.storyboard */; };
+		08757A4821B0E27B00816599 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A4721B0E27B00816599 /* Extensions+UIView.swift */; };
+		08757A4B21B0E94D00816599 /* HomeBottomsUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A4A21B0E94D00816599 /* HomeBottomsUIStackView.swift */; };
+		08757A4D21B0EF3500816599 /* HomeTopBottomsUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A4C21B0EF3500816599 /* HomeTopBottomsUIStackView.swift */; };
+		08757A4F21B1008000816599 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08757A4E21B1008000816599 /* CardView.swift */; };
+		089D77B821CDFDC5004F2366 /* Firestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D77B721CDFDC5004F2366 /* Firestore.swift */; };
+		08D795FC21CC332600E4E125 /* AgeRangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D795FB21CC332600E4E125 /* AgeRangeTableViewCell.swift */; };
+		08D8161C21BA17530017E5D3 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8161B21BA17530017E5D3 /* RegistrationViewController.swift */; };
+		08D8161E21BA1FEF0017E5D3 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8161D21BA1FEF0017E5D3 /* CustomTextField.swift */; };
+		08D8162421BB26FA0017E5D3 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8162321BB26FA0017E5D3 /* RegistrationViewModel.swift */; };
+		08D8162821BC6D080017E5D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08D8162721BC6D080017E5D3 /* GoogleService-Info.plist */; };
+		08D8162C21BDDA000017E5D3 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8162B21BDDA000017E5D3 /* Bindable.swift */; };
+		08DE3D9A21D189F3004598EC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3D9821D189F3004598EC /* LoginViewModel.swift */; };
+		08DE3D9B21D189F3004598EC /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3D9921D189F3004598EC /* LoginController.swift */; };
+		08DE3DAC21D48666004598EC /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3DAB21D48666004598EC /* UserInfoViewController.swift */; };
+		08DE3DCC21DB492A004598EC /* SwipingPhotosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DE3DCB21DB492A004598EC /* SwipingPhotosController.swift */; };
+		08F8864C21EE5F2E00D91DB7 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8864B21EE5F2E00D91DB7 /* MatchedView.swift */; };
+		08F8864E21EE704800D91DB7 /* SendMessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8864D21EE704800D91DB7 /* SendMessageButton.swift */; };
+		08F8865021EE73C600D91DB7 /* KeepSwipingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8864F21EE73C600D91DB7 /* KeepSwipingButton.swift */; };
+		3FF9B1850E9B5C9280EF4839 /* Pods_SwipMatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1E40484337DC808146F227 /* Pods_SwipMatch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083034C621C1733F0030A5FA /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		083034C821C1821C0030A5FA /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		08731A1B21B6D611002A2245 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		08731A1F21B6EB6A002A2245 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		08731A2321B6F4C9002A2245 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 		08757A3121B0DFD300816599 /* SwipMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08757A3421B0DFD300816599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08757A3621B0DFD300816599 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08757A3621B0DFD300816599 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		08757A3921B0DFD300816599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08757A3B21B0DFD400816599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08757A3E21B0DFD400816599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08757A4021B0DFD400816599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08757A4721B0E27B00816599 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		08757A4A21B0E94D00816599 /* HomeBottomsUIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBottomsUIStackView.swift; sourceTree = "<group>"; };
+		08757A4C21B0EF3500816599 /* HomeTopBottomsUIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopBottomsUIStackView.swift; sourceTree = "<group>"; };
+		08757A4E21B1008000816599 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		089D77B721CDFDC5004F2366 /* Firestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firestore.swift; sourceTree = "<group>"; };
+		08D795FB21CC332600E4E125 /* AgeRangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeRangeTableViewCell.swift; sourceTree = "<group>"; };
+		08D8161B21BA17530017E5D3 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		08D8161D21BA1FEF0017E5D3 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		08D8162321BB26FA0017E5D3 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		08D8162721BC6D080017E5D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08D8162B21BDDA000017E5D3 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		08DE3D9821D189F3004598EC /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		08DE3D9921D189F3004598EC /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		08DE3DAB21D48666004598EC /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		08DE3DCB21DB492A004598EC /* SwipingPhotosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingPhotosController.swift; sourceTree = "<group>"; };
+		08F8864B21EE5F2E00D91DB7 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
+		08F8864D21EE704800D91DB7 /* SendMessageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageButton.swift; sourceTree = "<group>"; };
+		08F8864F21EE73C600D91DB7 /* KeepSwipingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepSwipingButton.swift; sourceTree = "<group>"; };
+		7B6701A6D52032788B6CC5D4 /* Pods-SwipMatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipMatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipMatch/Pods-SwipMatch.release.xcconfig"; sourceTree = "<group>"; };
+		88D35D8FE6D2A8CBE3490DB4 /* Pods-SwipMatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipMatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipMatch/Pods-SwipMatch.debug.xcconfig"; sourceTree = "<group>"; };
+		EC1E40484337DC808146F227 /* Pods_SwipMatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipMatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +79,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF9B1850E9B5C9280EF4839 /* Pods_SwipMatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08731A1A21B6D2CB002A2245 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				08731A1B21B6D611002A2245 /* User.swift */,
+				08731A2321B6F4C9002A2245 /* Advertiser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		08731A1D21B6E737002A2245 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08DE3DAA21D4863C004598EC /* User Detial */,
+				08757A3621B0DFD300816599 /* HomeController.swift */,
+				08D8161B21BA17530017E5D3 /* RegistrationViewController.swift */,
+				08D8162B21BDDA000017E5D3 /* Bindable.swift */,
+				083034C621C1733F0030A5FA /* SettingTableViewController.swift */,
+				08DE3D9721D189F3004598EC /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08731A1E21B6E81D002A2245 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08731A1F21B6EB6A002A2245 /* CardViewModel.swift */,
+				08D8162321BB26FA0017E5D3 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		08757A2821B0DFD300816599 = {
 			isa = PBXGroup;
 			children = (
 				08757A3321B0DFD300816599 /* SwipMatch */,
 				08757A3221B0DFD300816599 /* Products */,
+				335B966ED35F496A6270C067 /* Pods */,
+				A7598AFDA603AD0BF703EBC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +138,79 @@
 		08757A3321B0DFD300816599 /* SwipMatch */ = {
 			isa = PBXGroup;
 			children = (
+				08731A1E21B6E81D002A2245 /* ViewModel */,
+				08731A1D21B6E737002A2245 /* Controller */,
+				08731A1A21B6D2CB002A2245 /* Model */,
+				08757A4921B0E91D00816599 /* Views */,
+				08757A4621B0E25F00816599 /* Extension */,
 				08757A3421B0DFD300816599 /* AppDelegate.swift */,
-				08757A3621B0DFD300816599 /* ViewController.swift */,
 				08757A3821B0DFD300816599 /* Main.storyboard */,
 				08757A3B21B0DFD400816599 /* Assets.xcassets */,
 				08757A3D21B0DFD400816599 /* LaunchScreen.storyboard */,
 				08757A4021B0DFD400816599 /* Info.plist */,
+				08D8162721BC6D080017E5D3 /* GoogleService-Info.plist */,
 			);
 			path = SwipMatch;
+			sourceTree = "<group>";
+		};
+		08757A4621B0E25F00816599 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				08757A4721B0E27B00816599 /* Extensions+UIView.swift */,
+				089D77B721CDFDC5004F2366 /* Firestore.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		08757A4921B0E91D00816599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				08757A4A21B0E94D00816599 /* HomeBottomsUIStackView.swift */,
+				08757A4C21B0EF3500816599 /* HomeTopBottomsUIStackView.swift */,
+				08757A4E21B1008000816599 /* CardView.swift */,
+				08D8161D21BA1FEF0017E5D3 /* CustomTextField.swift */,
+				083034C821C1821C0030A5FA /* SettingTableViewCell.swift */,
+				08D795FB21CC332600E4E125 /* AgeRangeTableViewCell.swift */,
+				08F8864B21EE5F2E00D91DB7 /* MatchedView.swift */,
+				08F8864D21EE704800D91DB7 /* SendMessageButton.swift */,
+				08F8864F21EE73C600D91DB7 /* KeepSwipingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		08DE3D9721D189F3004598EC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				08DE3D9821D189F3004598EC /* LoginViewModel.swift */,
+				08DE3D9921D189F3004598EC /* LoginController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		08DE3DAA21D4863C004598EC /* User Detial */ = {
+			isa = PBXGroup;
+			children = (
+				08DE3DAB21D48666004598EC /* UserInfoViewController.swift */,
+				08DE3DCB21DB492A004598EC /* SwipingPhotosController.swift */,
+			);
+			path = "User Detial";
+			sourceTree = "<group>";
+		};
+		335B966ED35F496A6270C067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88D35D8FE6D2A8CBE3490DB4 /* Pods-SwipMatch.debug.xcconfig */,
+				7B6701A6D52032788B6CC5D4 /* Pods-SwipMatch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7598AFDA603AD0BF703EBC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1E40484337DC808146F227 /* Pods_SwipMatch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08757A4321B0DFD400816599 /* Build configuration list for PBXNativeTarget "SwipMatch" */;
 			buildPhases = (
+				EAB5676BE816AAB63A1D615A /* [CP] Check Pods Manifest.lock */,
 				08757A2D21B0DFD300816599 /* Sources */,
 				08757A2E21B0DFD300816599 /* Frameworks */,
 				08757A2F21B0DFD300816599 /* Resources */,
+				2B2D181EE580CB22DCC6BA09 /* [CP] Embed Pods Frameworks */,
+				5AE5666E5B091F51643B6F72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +277,116 @@
 				08757A3F21B0DFD400816599 /* LaunchScreen.storyboard in Resources */,
 				08757A3C21B0DFD400816599 /* Assets.xcassets in Resources */,
 				08757A3A21B0DFD300816599 /* Main.storyboard in Resources */,
+				08D8162821BC6D080017E5D3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B2D181EE580CB22DCC6BA09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwipMatch/Pods-SwipMatch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipMatch/Pods-SwipMatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE5666E5B091F51643B6F72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwipMatch/Pods-SwipMatch-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipMatch/Pods-SwipMatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB5676BE816AAB63A1D615A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipMatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		08757A2D21B0DFD300816599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08757A3721B0DFD300816599 /* ViewController.swift in Sources */,
+				08DE3D9B21D189F3004598EC /* LoginController.swift in Sources */,
+				083034C721C1733F0030A5FA /* SettingTableViewController.swift in Sources */,
+				08D8162C21BDDA000017E5D3 /* Bindable.swift in Sources */,
+				08757A3721B0DFD300816599 /* HomeController.swift in Sources */,
+				08D795FC21CC332600E4E125 /* AgeRangeTableViewCell.swift in Sources */,
+				08D8162421BB26FA0017E5D3 /* RegistrationViewModel.swift in Sources */,
+				08D8161E21BA1FEF0017E5D3 /* CustomTextField.swift in Sources */,
 				08757A3521B0DFD300816599 /* AppDelegate.swift in Sources */,
+				083034C921C1821C0030A5FA /* SettingTableViewCell.swift in Sources */,
+				08DE3D9A21D189F3004598EC /* LoginViewModel.swift in Sources */,
+				08731A2421B6F4C9002A2245 /* Advertiser.swift in Sources */,
+				08757A4821B0E27B00816599 /* Extensions+UIView.swift in Sources */,
+				08D8161C21BA17530017E5D3 /* RegistrationViewController.swift in Sources */,
+				089D77B821CDFDC5004F2366 /* Firestore.swift in Sources */,
+				08F8864E21EE704800D91DB7 /* SendMessageButton.swift in Sources */,
+				08757A4B21B0E94D00816599 /* HomeBottomsUIStackView.swift in Sources */,
+				08731A2021B6EB6A002A2245 /* CardViewModel.swift in Sources */,
+				08757A4F21B1008000816599 /* CardView.swift in Sources */,
+				08F8864C21EE5F2E00D91DB7 /* MatchedView.swift in Sources */,
+				08DE3DAC21D48666004598EC /* UserInfoViewController.swift in Sources */,
+				08F8865021EE73C600D91DB7 /* KeepSwipingButton.swift in Sources */,
+				08757A4D21B0EF3500816599 /* HomeTopBottomsUIStackView.swift in Sources */,
+				08731A1C21B6D611002A2245 /* User.swift in Sources */,
+				08DE3DCC21DB492A004598EC /* SwipingPhotosController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +530,7 @@
 		};
 		08757A4421B0DFD400816599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D35D8FE6D2A8CBE3490DB4 /* Pods-SwipMatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +549,7 @@
 		};
 		08757A4521B0DFD400816599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6701A6D52032788B6CC5D4 /* Pods-SwipMatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
