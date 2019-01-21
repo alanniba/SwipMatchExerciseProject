@@ -1,0 +1,3 @@
+cd yourFileLocation
+  pod install
+  pod update
